@@ -1,41 +1,61 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>Campus Assistant Bot</title>
-  <link rel="stylesheet" href="style.css">
-  <style>
-    /* Inline safety net so you see the banner even if style.css doesn’t load */
-    .banner {
-      background: #1f2937;
-      color: #fff;
-      padding: 10px 14px;
-      border-radius: 8px;
-      margin: 12px auto 8px;
-      max-width: 720px;
-      font: 14px/1.4 system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-    }
-    .banner b { font-weight: 700; }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>College Counselor Bot</title>
+
+  <!-- Font & icons -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎓</text></svg>">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
-  <!-- ✅ Instruction banner -->
-  <div class="banner">
-    Tip: if a class is full, you can ask for alternatives like
-    <b>"second best professor for MATH 1A"</b>, <b>"third best professor"</b>, etc.
-  </div>
-
-  <div class="chat-container">
-    <h2>Campus Assistant</h2>
-    <p class="hint">Ask: "When is add/drop?", "Best professor for MATH 1A?", "Where is tutoring?"</p>
-    <div id="chatbox"></div>
-    <div class="row">
-      <input id="userInput" type="text" placeholder="Ask a campus question..." onkeydown="if(event.key==='Enter') sendMessage()" />
-      <button onclick="sendMessage()">Send</button>
+  <header class="site-header">
+    <div class="container head-wrap">
+      <div class="brand">
+        <span class="logo">🎓</span>
+        <div class="brand-text">
+          <h1>College Counselor</h1>
+          <p class="sub">Get quick answers about classes, deadlines & professors</p>
+        </div>
+      </div>
+      <div class="header-actions">
+        <button id="themeToggle" title="Toggle theme" aria-label="Toggle theme">☀️</button>
+        <a class="button ghost" href="https://github.com/Vrindavan30/college-counselor-bot" target="_blank" rel="noopener">GitHub</a>
+      </div>
     </div>
-  </div>
+  </header>
 
-  <script src="script.js"></script>
+  <main class="container">
+    <section class="chat-card" aria-live="polite">
+      <div id="messages" class="messages" role="log"></div>
+
+      <div class="suggestions" id="suggestions">
+        <button class="chip">Best professor for MATH 1A?</button>
+        <button class="chip">When’s the last day to drop?</button>
+        <button class="chip">Tutoring options for CS?</button>
+        <button class="chip">Data Science at UCSD requirements</button>
+      </div>
+
+      <form id="chatForm" class="input-row" autocomplete="off">
+        <input id="userInput" type="text" placeholder="Ask anything about your college…" aria-label="Your message" required />
+        <button id="sendBtn" class="button primary" type="submit">Send</button>
+      </form>
+      <p class="disclaimer">⚠️ This bot may be imperfect. Always verify critical info with your college.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>© <span id="year"></span> Counselor Bot</span>
+      <span>•</span>
+      <a href="#" id="clearChat">Clear chat</a>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
 </body>
 </html>
