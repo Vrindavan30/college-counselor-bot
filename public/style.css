@@ -185,4 +185,19 @@
                background: var(--card-bg, #fff); z-index:999; transition:left 0.3s ease; }
     .sidebar.open { left:0; }
     .sidebar-fab { display:block; }
+    /* Force readable text in sidebar */
+    .sidebar {
+        color: #000;              /* main text */
+    }
+    
+    .sidebar h2,
+    .sidebar h3,
+    .sidebar p,
+    .sidebar li {
+        color: #000;              /* headings and list items */
+    }
+    
+    .sidebar a {
+        color: #000;
+    }
   }
