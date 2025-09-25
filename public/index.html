@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Campus Assistant Bot</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Inline safety net so you see the banner even if style.css doesn’t load */
+    .banner {
+      background: #1f2937;
+      color: #fff;
+      padding: 10px 14px;
+      border-radius: 8px;
+      margin: 12px auto 8px;
+      max-width: 720px;
+      font: 14px/1.4 system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    }
+    .banner b { font-weight: 700; }
+  </style>
+</head>
+<body>
+
+  <!-- ✅ Instruction banner -->
+  <div class="banner">
+    Tip: if a class is full, you can ask for alternatives like
+    <b>"second best professor for MATH 1A"</b>, <b>"third best professor"</b>, etc.
+  </div>
+
+  <div class="chat-container">
+    <h2>Campus Assistant</h2>
+    <p class="hint">Ask: "When is add/drop?", "Best professor for MATH 1A?", "Where is tutoring?"</p>
+    <div id="chatbox"></div>
+    <div class="row">
+      <input id="userInput" type="text" placeholder="Ask a campus question..." onkeydown="if(event.key==='Enter') sendMessage()" />
+      <button onclick="sendMessage()">Send</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

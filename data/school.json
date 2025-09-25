@@ -1,0 +1,1061 @@
+{
+  "school": {
+    "name": "De Anza Community College",
+    "website": "https://www.deanza.edu/"
+  },
+  "deadlines": [
+    {
+      "term": "Fall 2025",
+      "category": "Add/Drop",
+      "description": "Last day to add classes",
+      "date": "October 5, 2025",
+      "time": "",
+      "keywords": [
+        "add deadline",
+        "add classes",
+        "registration"
+      ],
+      "notes": "Verify on the official calendar."
+    },
+    {
+      "term": "Fall 2025",
+      "category": "Withdraw",
+      "description": "Last day to drop with a W",
+      "date": "November 14, 2025",
+      "time": "",
+      "keywords": [
+        "drop deadline",
+        "withdraw",
+        "W deadline"
+      ],
+      "notes": "May vary by course."
+    }
+  ],
+  "professors": [
+    {
+      "name": "Amanda Lien",
+      "department": "Mathematics",
+      "courses": [
+        "MATH 1A"
+      ],
+      "rating": 4.7,
+      "num_ratings": 149,
+      "rmp_url": "https://www.ratemyprofessors.com/professor/1922881",
+      "reviews": "Amazing Lectures, Gives Great Feedback, Overall an easy professor, Very kind and sweet."
+    },
+    {
+      "name": "Edward Ahrens",
+      "department": "Computer Science",
+      "courses": [
+        "CIS 22B"
+      ],
+      "rating": 3.8,
+      "num_ratings": 90,
+      "rmp_url": "https://www.ratemyprofessors.com/professor/338518",
+      "reviews": "Very sweet and kind professor, very easy class, lets students 2 week extension for students to fix lab mistakes, Lectures are quite boring though."
+    },
+    {
+      "name": "Nahrin Rashid",
+      "department": "Mathematics",
+      "courses": ["MATH 1A", "MATH 1B"],
+      "rating": 4.5,
+      "num_ratings": 83,
+      "rmp_url": "https://www.ratemyprofessors.com/placeholder",
+      "reviews": "Patient, structured, and uses clear examples; fair exams."
+    },
+    {
+      "name": "Vinh Nguyen",
+      "department": "Mathematics",
+      "courses": ["MATH 1A"],
+      "rating": 4.2,
+      "num_ratings": 82,
+      "rmp_url": "https://www.ratemyprofessors.com/professor/1547506",
+      "reviews": "Programmatic, clear alignment between homework and tests; strong rating. (~4.2/5 on 83 ratings, 79% would take again, difficulty ~3.0). Recent 2025 reviews for his Calc 1A praise organized lectures and helpful policies; “tough but fair if you keep up with the homework.” Great middle-ground pick."
+    },
+    {
+      "name": "Doli Bambhania",
+      "department": "Mathematics",
+      "courses": ["MATH 1A"],
+      "rating": 4.1,
+      "num_ratings": 302,
+      "rmp_url": "https://www.ratemyprofessors.com/professor/154177",
+      "reviews": "Big sample and steady results: 4.1/5, 302 ratings, 66% would take again, difficulty 3.3. Themes: caring, clear explanations, lots of homework, three midterms; tests are doable if you keep up."
+    },
+    {
+      "name": "Jelena Segan",
+      "department": "Mathematics",
+      "courses": ["MATH 1A"],
+      "rating": 5,
+      "num_ratings": 13,
+      "rmp_url": "https://www.ratemyprofessors.com/professor/3040018",
+      "reviews": "5.0/5 on 13 ratings (fewer reviews); stellar comments, but limited sample and not many Calc 1A-specific notes yet."
+    },
+    {
+      "name": "Usha Ganeshlingam",
+      "department": "Mathematics",
+      "courses": ["MATH 1A"],
+      "rating": 4.0,
+      "num_ratings": 116,
+      "rmp_url": "https://www.ratemyprofessors.com/professor/3040018",
+      "reviews": "many cite clarity and structured materials; an easier difficulty profile."
+    },
+    {
+      "name": "Lilit Mazmanyan",
+      "department": "Mathematics",
+      "courses": ["MATH 1B"],
+      "rating": 4.3,
+      "num_ratings": 77,
+      "rmp_url": "",
+      "reviews": "Supportive, lots of practice matching exams; extra credit and quick responses. 1B notes mention cheat sheets/WebAssign; predictable assessments."
+    },
+    {
+      "name": "Jian (Andrew) Yu",
+      "department": "Mathematics",
+      "courses": ["MATH 1B"],
+      "rating": 4.4,
+      "num_ratings": 133,
+      "rmp_url": "",
+      "reviews": "Very clear explanations; 1B reviewers say some sections feel lighter, especially async. A bit lecture-heavy for some; starts fast."
+    },
+    {
+      "name": "Linlin Zhang",
+      "department": "Mathematics",
+      "courses": ["MATH 1B", "MATH 1C"],
+      "rating": 4.2,
+      "num_ratings": 69,
+      "rmp_url": "",
+      "reviews": "Open-note quizzes, one-page notes on exams; online HW is straightforward. Minor slide mistakes noted; supportive and passable if you keep up."
+    },
+    {
+      "name": "Loraine Moen",
+      "department": "Mathematics",
+      "courses": ["MATH 1B", "MATH 1C"],
+      "rating": 4.0,
+      "num_ratings": 220,
+      "rmp_url": "",
+      "reviews": "Kind, step-by-step approach. For 1B, HW often ungraded; weekly quizzes from HW; cheat sheet allowed on final—low-stress but structured."
+    },
+    {
+      "name": "Christopher N. Bradley",
+      "department": "Mathematics",
+      "courses": ["MATH 1C"],
+      "rating": 4.7,
+      "num_ratings": 12,
+      "rmp_url": "https://www.ratemyprofessors.com/placeholder",
+      "reviews": "Supportive and predictable; extra credit; clear lectures. Exams align with prep. (100% WTA, diff ~2.7)"
+    },
+    {
+      "name": "John Jimenez",
+      "department": "Mathematics",
+      "courses": ["MATH 1C"],
+      "rating": 4.3,
+      "num_ratings": 44,
+      "rmp_url": "https://www.ratemyprofessors.com/placeholder",
+      "reviews": "Chill and fair; drops lowest quiz/exam; tests track class materials. (75% WTA, diff ~2.9)"
+    },
+    {
+      "name": "Jianbo (Paul) Du",
+      "department": "Mathematics",
+      "courses": ["MATH 1C"],
+      "rating": 3.4,
+      "num_ratings": 111,
+      "rmp_url": "https://www.ratemyprofessors.com/placeholder",
+      "reviews": "Fair/aligned policies; lecture-heavy; some self-study helpful. (62% WTA, diff ~3.0)"
+    },
+    {
+      "name": "Millia Ison",
+      "department": "Mathematics",
+      "courses": ["MATH 1C"],
+      "rating": 2.8,
+      "num_ratings": 363,
+      "rmp_url": "https://www.ratemyprofessors.com/placeholder",
+      "reviews": "Heavier homework, test-heavy; mixed outcomes—suits students who want lots of practice. (39% WTA, diff ~3.1)"
+    },
+    {
+      "name": "Bijan Sadeghi-Hassanvand",
+      "department": "Mathematics",
+      "courses": ["MATH 1C"],
+      "rating": 2.6,
+      "num_ratings": 120,
+      "rmp_url": "https://www.ratemyprofessors.com/placeholder",
+      "reviews": "Lots of HW, lecture-heavy; clarity issues noted by some. (38% WTA, diff ~3.2)"
+    },
+    {
+      "name": "Hassan Bourgoub",
+      "department": "Mathematics",
+      "courses": ["MATH 1C", "MATH 1D", "MATH 2A"],
+      "rating": 2.2,
+      "num_ratings": 436,
+      "rmp_url": "https://www.ratemyprofessors.com/placeholder",
+      "reviews": "Very mixed/low satisfaction; heavier workload; some say tests are easy if you self-teach. (22% WTA, diff ~3.4)"
+    },
+    {
+      "name": "Fatemeh Yarahmadi",
+      "department": "Mathematics",
+      "courses": ["MATH 1D"],
+      "rating": 4.3,
+      "num_ratings": 162,
+      "rmp_url": "",
+      "reviews": "Supportive, lighter stress, predictable. Recent 1D notes: easy A vibe for prepared students; caring and clear grading."
+    },
+    {
+      "name": "Vadim von Brzeski",
+      "department": "Mathematics",
+      "courses": ["MATH 1D"],
+      "rating": 4.4,
+      "num_ratings": 30,
+      "rmp_url": "",
+      "reviews": "Approachable, encouraging, fair. Smaller sample but comments point to alignment and supportive feedback."
+    },
+    {
+      "name": "Roderic (Rick) Taylor",
+      "department": "Mathematics",
+      "courses": ["MATH 1D", "MATH 2A"],
+      "rating": 3.3,
+      "num_ratings": 186,
+      "rmp_url": "",
+      "reviews": "Manageable difficulty; tests similar to HW/practice. Some find pacing/handwriting slow—steady if you keep up."
+    },
+    {
+      "name": "James Mailhot",
+      "department": "Mathematics",
+      "courses": ["MATH 1D", "MATH 2B"],
+      "rating": 3.6,
+      "num_ratings": 156,
+      "rmp_url": "",
+      "reviews": "Clear explanations but tougher testing/homework; more rigor, less 'chill.' Good if you want a push."
+    },
+    {
+      "name": "Kejian Shi",
+      "department": "Mathematics",
+      "courses": ["MATH 1D", "MATH 2A"],
+      "rating": 2.6,
+      "num_ratings": 469,
+      "rmp_url": "",
+      "reviews": "Very structured but harsh; heavy workload and test-heavy. Better for self-directed grinders."
+    },
+    {
+      "name": "Lucian Sega",
+      "department": "Mathematics",
+      "courses": ["MATH 2B"],
+      "rating": 4.9,
+      "num_ratings": 20,
+      "rmp_url": "https://www.ratemyprofessors.com/placeholder",
+      "reviews": "Engaging, inspirational lectures; supportive vibe; often lower stress. Note: RMP page is for SJSU (external campus), used here as a teaching-signal proxy."
+    },
+    {
+      "name": "Jakob Kotas",
+      "department": "Mathematics",
+      "courses": ["MATH 2B"],
+      "rating": 3.5,
+      "num_ratings": 25,
+      "rmp_url": "https://www.ratemyprofessors.com/placeholder",
+      "reviews": "Accessible and caring; recent reviews mention organization/partial-credit frustrations. Note: RMP page is for UW (external campus), used as a proxy."
+    },
+    {
+      "name": "Justin Read",
+      "department": "Computer Science",
+      "courses": ["CIS 22A"],
+      "rating": 4.5,
+      "num_ratings": 8,
+      "rmp_url": "https://www.ratemyprofessors.com/placeholder",
+      "reviews": "Supportive, flexible, very chill. ZyBooks-driven course, weekly labs, open-book tests, partial/extra credit, fast replies; exams match study guides. (Sometimes listed as Justine Read.)"
+    },
+    {
+      "name": "Doug Case",
+      "department": "Computer Science",
+      "courses": ["CIS 22A"],
+      "rating": 4.8,
+      "num_ratings": 5,
+      "rmp_url": "https://www.ratemyprofessors.com/placeholder",
+      "reviews": "Organized and engaging; clear grading, helpful feedback, straightforward Canvas flow. Low stress; tiny sample but consistently strong."
+    },
+    {
+      "name": "Abeer Alameer",
+      "department": "Computer Science",
+      "courses": ["CIS 22A"],
+      "rating": 4.1,
+      "num_ratings": 97,
+      "rmp_url": "https://www.ratemyprofessors.com/placeholder",
+      "reviews": "Caring and structured; clear rubrics, participation matters, some proctored exams; supportive and responsive with steady weekly work."
+    },
+    {
+      "name": "May Lin",
+      "department": "Computer Science",
+      "courses": ["CIS 22A"],
+      "rating": 4.1,
+      "num_ratings": 9,
+      "rmp_url": "https://www.ratemyprofessors.com/placeholder",
+      "reviews": "Friendly, manageable weekly rhythm (quiz + lab + ZyBooks). Late lab resubmits allowed; exam coding mirrors practice. A couple harsher takes on grading, but overall student-friendly."
+    },
+    {
+      "name": "Al-Hussein",
+      "department": "Computer Science",
+      "courses": ["CIS 22A"],
+      "rating": 3.7,
+      "num_ratings": 27,
+      "rmp_url": "https://www.ratemyprofessors.com/placeholder",
+      "reviews": "Understanding with fair tests; passionate. Lots of homework; some note accent/clarity—manageable if you keep up. (Listed as “Al Hussein” on RMP.)"
+    },
+    {
+      "name": "Mary Pape",
+      "department": "Computer Science",
+      "courses": ["CIS 22A"],
+      "rating": 3.3,
+      "num_ratings": 131,
+      "rmp_url": "https://www.ratemyprofessors.com/placeholder",
+      "reviews": "Mixed experiences: organized but can feel test-heavy/tough grading; proctored finals. Many succeed if they stay on top of labs and rubrics."
+    },
+    {
+      "name": "An Lam",
+      "department": "Computer Science",
+      "courses": ["CIS 22A"],
+      "rating": 3.0,
+      "num_ratings": 2,
+      "rmp_url": "https://www.ratemyprofessors.com/placeholder",
+      "reviews": "Too little data to judge confidently: one glowing recent 22A review; another says lectures/recordings were hard to follow."
+    },
+    {
+      "name": "Tuan Nguyen",
+      "department": "Computer Science",
+      "courses": ["CIS 22A"],
+      "rating": 1.4,
+      "num_ratings": 34,
+      "rmp_url": "https://www.ratemyprofessors.com/placeholder",
+      "reviews": "Recurrent notes of harsh grading, heavy workload, unclear instructions; occasional positives, but risk is high for most 22A students."
+    },
+    {
+      "name": "Alexandre Stoykov",
+      "department": "Computer Science",
+      "courses": ["CIS 22A"],
+      "rating": null,
+      "num_ratings": 0,
+      "rmp_url": "",
+      "reviews": "No RMP ratings yet for 22A—insufficient data to evaluate."
+    },
+    {
+      "name": "Dan Halabe",
+      "department": "Computer Science",
+      "courses": ["CIS 22B"],
+      "rating": 5.0,
+      "num_ratings": 23,
+      "rmp_url": "https://www.ratemyprofessors.com/placeholder",
+      "reviews": "Best overall learning + supportive vibe. Consistent recent 22B reviews: you'll learn a lot via useful projects; weekly HW + biweekly solo projects; very caring/accessible; fair difficulty."
+    },
+    {
+      "name": "Shu-Huar Yeh",
+      "department": "Computer Science",
+      "courses": ["CIS 22B"],
+      "rating": 3.4,
+      "num_ratings": 35,
+      "rmp_url": "https://www.ratemyprofessors.com/placeholder",
+      "reviews": "Structured with clear rubrics and extra credit; some open-book tests. Several comments say lectures can meander—plan to practice outside class."
+    },
+    {
+      "name": "Hann So",
+      "department": "Computer Science",
+      "courses": ["CIS 22B"],
+      "rating": 2.1,
+      "num_ratings": 74,
+      "rmp_url": "https://www.ratemyprofessors.com/placeholder",
+      "reviews": "Heavier workload with tough grading; frequent notes about organization/clarity and group projects; overall experience trends stressful for many."
+    },
+    {
+      "name": "Mirsaeid Abolghasemi",
+      "department": "Computer Science",
+      "courses": ["CIS 22C"],
+      "rating": 4.7,
+      "num_ratings": 223,
+      "rmp_url": "https://www.ratemyprofessors.com/placeholder",
+      "reviews": "Very clear and responsive; extra credit and collaborative projects; many say you learn a lot without surprise exams. (Not all reviews are for 22C, but the style is consistently praised.)"
+    },
+    {
+      "name": "Jennifer Parrish",
+      "department": "Computer Science",
+      "courses": ["CIS 22C"],
+      "rating": 4.3,
+      "num_ratings": 111,
+      "rmp_url": "https://www.ratemyprofessors.com/placeholder",
+      "reviews": "Structured and supportive with heavier weekly load. For 22C: short, clear videos; two labs/week; group project (even async). Exams align with taught methods; caring and accessible."
+    },
+    {
+      "name": "Ronald Kleinman",
+      "department": "Computer Science",
+      "courses": ["CIS 22C"],
+      "rating": 3.7,
+      "num_ratings": 32,
+      "rmp_url": "https://www.ratemyprofessors.com/placeholder",
+      "reviews": "Knowledgeable, generous with extra credit; quizzes pulled from lecture (good alignment). Trade-offs: prefers older C++ style and can be strict; a few find lectures dry."
+    },
+    {
+      "name": "Kamran Eftekhari",
+      "department": "Computer Science",
+      "courses": ["CIS 22C"],
+      "rating": 3.2,
+      "num_ratings": 117,
+      "rmp_url": "https://www.ratemyprofessors.com/placeholder",
+      "reviews": "Mixed/volatile experience. Recent posts mention lecture–assignment misalignment, strict grading, stress; some note quick email replies and end-of-term curves. Better if very self-directed."
+    },
+    {
+      "name": "Charles De Vogelaere",
+      "department": "Mathematics",
+      "courses": ["MATH 1B"],
+      "rating": 4.5,
+      "num_ratings": 127,
+      "rmp_url": "https://www.ratemyprofessors.com/professor/241867",
+      "reviews": "Fair, predictable assessments with lower perceived difficulty. Supportive and caring; clear grading criteria and occasional extra credit. Lectures can feel a bit dry, but quizzes/exams align with practice—manageable if you keep up weekly."
+    }
+  ],
+  "courses": [
+    {
+      "code": "CIS 22A",
+      "title": "Beginning Programming Methodologies in C++",
+      "department": "Computer Science",
+      "description": "Intro to C++ programming: variables and types, input/output, conditionals and loops, functions, arrays/vectors/strings, basic object-oriented concepts, file I/O, debugging and testing. Many sections use ZyBooks or similar platforms.",
+      "notes": "Typical weekly rhythm: ZyBooks reading, quizzes, and a lab. Policies and exam formats vary by instructor—check your section’s syllabus."
+    },
+    {
+      "code": "CIS 22B",
+      "title": "Intermediate Programming Methodologies in C++",
+      "department": "Computer Science",
+      "description": "Object-oriented programming with C++: classes/objects, encapsulation, constructors/destructors, operator overloading, inheritance and polymorphism, templates, exceptions, recursion, separate compilation, testing and debugging. Emphasis on style, design, and maintainability.",
+      "notes": "Expect weekly programming assignments and 1–2 projects depending on instructor. Check your section’s syllabus for IDE, late policy, and exam format."
+    },
+    {
+      "code": "CIS 22C",
+      "title": "Data Abstraction and Structures",
+      "department": "Computer Science",
+      "description": "Linked lists, stacks, queues, trees, hash tables, graphs, algorithms.",
+      "notes": "Lots of Java\u2014start assignments early."
+    },
+    {
+      "code": "MATH 1A",
+      "title": "Calculus I",
+      "department": "Mathematics",
+      "description": "Limits, derivatives, applications, and intro integrals.",
+      "notes": "Get familiar with your homework platform."
+    },
+    {
+      "code": "MATH 1B",
+      "title": "Calculus II",
+      "department": "Mathematics",
+      "description": "You’ll learn techniques of integration (substitution, parts, trig substitution, partial fractions), improper integrals, and applications (areas, volumes, arc length, work). Then dive into sequences & series: convergence tests (comparison, ratio, root, integral, alternating), power/Taylor–Maclaurin series with radius/interval of convergence. Many sections also touch parametric & polar curves.",
+      "notes": "Check your section’s syllabus—policies vary by instructor."
+    },
+    {
+      "code": "MATH 1C",
+      "title": "Calculus III",
+      "department": "Mathematics",
+      "description": "Sequences and series, parametric and polar, applications of integration (topics vary by catalog).",
+      "notes": "Check your section’s syllabus—policies vary by instructor."
+    },
+    {
+      "code": "MATH 1D",
+      "title": "Calculus IV (Multivariable & Vector Calculus)",
+      "department": "Mathematics",
+      "description": "Vectors and geometry in 3D; partial derivatives and gradients; multiple integrals; vector fields; line and surface integrals; Green’s, Stokes’, and Divergence theorems (topics may vary by catalog/section).",
+      "notes": "Check your section’s syllabus—policies vary by instructor."
+    },
+    {
+      "code": "MATH 2A",
+      "title": "Differential Equations",
+      "department": "Mathematics",
+      "description": "First-order DEs (separable, linear, exact), higher-order linear DEs with constant coefficients, particular solutions (method of undetermined coefficients/variation of parameters), Laplace transforms, systems of DEs, qualitative phase-plane ideas, and applications. Some sections include series solutions or numerical methods.",
+      "notes": "Policies vary by instructor; check your section’s syllabus."
+    },
+    {
+      "code": "MATH 2B",
+      "title": "Linear Algebra",
+      "department": "Mathematics",
+      "description": "Systems of linear equations and Gaussian elimination; matrices and matrix algebra; vector spaces and subspaces; linear independence, basis, dimension; linear transformations and change of basis; determinants; eigenvalues/eigenvectors and diagonalization; orthogonality and least squares; applications.",
+      "notes": "Exact topics/pace vary by instructor—check your section’s syllabus."
+    }    
+  ],
+  
+  "rankings": {
+    "CIS 22A": [
+      {
+        "name": "Justin Read",
+        "tags": ["best_overall", "supportive", "flexible", "chill"],
+        "rank": 1,
+        "notes": "ZyBooks-driven, open-book tests, partial/extra credit, fast replies; exams match guides. 4.5/5, 88% WTA, diff 2.6 (8 ratings)."
+      },
+      {
+        "name": "Doug Case",
+        "tags": ["organized", "engaging", "low_stress", "small_sample", "easiest"],
+        "rank": 2,
+        "notes": "Clear grading, helpful feedback, straightforward Canvas flow; fair exams. 4.8/5, 100% WTA, diff 2.2 (5 ratings)."
+      },
+      {
+        "name": "Abeer Alameer",
+        "tags": ["caring", "structured", "steady_workload"],
+        "rank": 3,
+        "notes": "Clear rubrics, participation matters; supportive with steady weekly work. 4.1/5, 77% WTA, diff 3.2 (97 ratings)."
+      },
+      {
+        "name": "May Lin",
+        "tags": ["friendly", "manageable_rhythm", "practice_aligned"],
+        "rank": 4,
+        "notes": "Weekly quiz+lab+ZyBooks; late resubmits; exams mirror practice. 4.1/5, 78% WTA, diff 2.9 (9 ratings)."
+      },
+      {
+        "name": "Al-Hussein",
+        "tags": ["understanding", "fair_tests", "homework_heavy"],
+        "rank": 5,
+        "notes": "Passionate and fair; accent/clarity noted by some. 3.7/5, 71% WTA, diff 2.0 (27 ratings)."
+      },
+      {
+        "name": "Mary Pape",
+        "tags": ["organized", "test_heavy", "mixed_experiences"],
+        "rank": 6,
+        "notes": "Can feel tough/proctored; success if you track labs/rubrics. 3.3/5, 54% WTA, diff 2.7 (131 ratings)."
+      },
+      {
+        "name": "An Lam",
+        "tags": ["insufficient_data"],
+        "rank": 7,
+        "notes": "One recent strong 22A review, one critical about clarity; too little data. 3.0/5, 50% WTA, diff 2.5 (2 ratings)."
+      },
+      {
+        "name": "Tuan Nguyen",
+        "tags": ["harsh_grading", "heavy_workload", "unclear_instructions"],
+        "rank": 8,
+        "notes": "Risky pick for most beginners. 1.4/5, 13% WTA, diff 4.0 (34 ratings)."
+      },
+      {
+        "name": "Alexandre Stoykov",
+        "tags": ["unranked", "no_rmp_data"],
+        "rank": 9,
+        "notes": "No RMP ratings yet—kept last purely as a placeholder until data appears."
+      }
+    ],
+    "CIS 22B": [
+      {
+        "name": "Dan Halabe",
+        "tags": ["best_overall", "best_teaching", "supportive", "projects"],
+        "rank": 1,
+        "notes": "You’ll learn a lot; caring/accessible; weekly HW + biweekly solo projects; fair difficulty. RMP: 5.0/5, 100% WTA, diff 2.4 (23 ratings)."
+      },
+      {
+        "name": "Edward Ahrens",
+        "tags": ["easiest", "student_friendly", "recorded_lectures"],
+        "rank": 2,
+        "notes": "Very lenient and kind; resubmissions common; recorded lectures. Trade-off: some say you may need extra self-study for depth. RMP: 3.8/5, 79% WTA, diff 1.7 (90 ratings)."
+      },
+      {
+        "name": "Shu-Huar Yeh",
+        "tags": ["structured", "extra_credit", "lecture_value_mixed"],
+        "rank": 3,
+        "notes": "Clear rubrics and EC; some open-book tests; several reviews say lectures meander—practice outside class. RMP: 3.4/5, 67% WTA, diff 2.8 (35 ratings)."
+      },
+      {
+        "name": "Hann So",
+        "tags": ["heavy_workload", "tough_grader", "organization_issues"],
+        "rank": 4,
+        "notes": "Lots of HW and group work; clarity/organization concerns. Overall more stressful for many. RMP: 2.1/5, 41% WTA, diff 3.4 (74 ratings)."
+      }
+    ],
+    "CIS 22C": [
+      {
+        "name": "Mirsaeid Abolghasemi",
+        "tags": ["best_overall", "student_first", "clear", "responsive", "extra_credit", "easiest"],
+        "rank": 1,
+        "notes": "Most consistent, student-first. Very clear, responsive; EC and collaborative projects; lots learned without surprise exams. 4.7/5, 92% WTA, diff 2.8 (223 ratings)."
+      },
+      {
+        "name": "Jennifer Parrish",
+        "tags": ["structured", "supportive", "heavier_load", "aligned_exams"],
+        "rank": 2,
+        "notes": "Structured, supportive, heavier weekly load. For 22C: short/clear videos, two labs/week, group project; exams align with taught methods; caring and accessible. 4.3/5, 81% WTA, diff 2.9 (111)."
+      },
+      {
+        "name": "Al-Hussein",
+        "tags": ["fair_policies", "manageable", "lower_stress"],
+        "rank": 3,
+        "notes": "Fair policies and manageable difficulty. Lectures can be a bit hard to follow at times, but tests/HW are fair with clear grading and reasonable extensions. 3.7/5, 71% WTA, diff 2.0 (27)."
+      },
+      {
+        "name": "Ronald Kleinman",
+        "tags": ["knowledgeable", "extra_credit", "older_cpp_style"],
+        "rank": 4,
+        "notes": "Knowledgeable; generous EC; quizzes from lecture (good alignment). Prefers older C++ style; can be strict; some find lectures dry. 3.7/5, 64% WTA, diff 3.3 (32)."
+      },
+      {
+        "name": "Kamran Eftekhari",
+        "tags": ["mixed", "strict_grading", "stressful"],
+        "rank": 5,
+        "notes": "Mixed/volatile. Reports of misalignment, strict grading, and stress; some quick replies and curves. Riskier unless very self-directed. 3.2/5, 43% WTA, diff 3.0 (117)."
+      }
+    ],
+    "MATH 1A": [
+      {
+        "name": "Amanda Lien",
+        "tags": ["best_overall", "best_teaching"],
+        "rank": 1,
+        "notes": "Clear lectures, great feedback."
+      },
+      {
+        "name": "Nahrin Rashid",
+        "tags": ["second_best"],
+        "rank": 2,
+        "notes": "Good explanations, fast pace."
+      },
+      {
+        "name": "John Jimenez",
+        "tags": ["easiest", "third_best"],
+        "rank": 3,
+        "notes": "Light homework; exams straightforward."
+      },
+      {
+        "name": "Jelena Segan",
+        "tags": ["supportive but heavier homework"],
+        "rank": 4,
+        "notes": "Stellar reviews but review sample is very small. Professor looks very promising though."
+      },
+      {
+        "name": "Vinh Nguyen",
+        "tags": ["good balance", "fourth_best"],
+        "rank": 5,
+        "notes": "Best balance of rigor + manageability:"
+      },
+      {
+        "name": "Doli Bambhania",
+        "tags": ["supportive but heavier homework", "fifth_best"],
+        "rank": 6,
+        "notes": "Lots of homework but explains concepts really well. Really caring for students."
+      },
+      {
+        "name": "Usha Ganeshlingam",
+        "tags": ["Solid class"],
+        "rank": 7,
+        "notes": "Recent reviews are mixed but overall a solid class."
+      }
+    ],
+    "MATH 1B": [
+      {
+        "name": "Nahrin Rashid",
+        "tags": ["best_overall", "best_teaching"],
+        "rank": 1,
+        "notes": "Care + structure; online quizzes/tests (2 attempts) and unlimited HW attempts cited by 1B students; keeps a tough class doable."
+      },
+      {
+        "name": "Lilit Mazmanyan",
+        "tags": ["second_best", "supportive"],
+        "rank": 2,
+        "notes": "Supportive, predictable assessments; cheat sheets/WebAssign; extra credit and fast replies."
+      },
+      {
+        "name": "Charles De Vogelaere",
+        "rank": 3,
+        "tags": ["easiest"],
+        "notes": "Lower perceived difficulty; fair, predictable assessments; manageable workload if you keep up with weekly practice."
+      },
+      {
+        "name": "Jian (Andrew) Yu",
+        "tags": ["third_best", "clear_explanations"],
+        "rank": 4,
+        "notes": "Very clear explanations; some formats perceived as lighter (esp. async); can be lecture-heavy/fast early on."
+      },
+      {
+        "name": "Linlin Zhang",
+        "tags": ["fourth_best", "organized", "gentle_ramp"],
+        "rank": 5,
+        "notes": "Open-note quizzes; one-page notes on exams; straightforward online HW; supportive and organized."
+      },
+      {
+        "name": "Loraine Moen",
+        "tags": ["fifth_best", "lower_stress"],
+        "rank": 6,
+        "notes": "Kind, step-by-step; HW often ungraded; weekly quizzes from HW; cheat sheet for cumulative final."
+      }
+    ],
+    "MATH 1C": [
+      {
+        "name": "Christopher N. Bradley",
+        "tags": ["best_overall", "best_teaching", "supportive", "predictable"],
+        "rank": 1,
+        "notes": "Supportive + predictable; exams align with prep; small but very positive sample."
+      },
+      {
+        "name": "John Jimenez",
+        "tags": ["chill", "fair", "aligned_with_materials", "easiest"],
+        "rank": 2,
+        "notes": "Drops lowest quiz/exam; tests track class notes; friendly/fair."
+      },
+      {
+        "name": "Linlin Zhang",
+        "tags": ["supportive", "organized", "manageable_load"],
+        "rank": 3,
+        "notes": "Open-note quizzes; one-page notes allowed; ‘do the work and you’re fine.’"
+      },
+      {
+        "name": "Loraine Moen",
+        "tags": ["supportive", "lower_stress", "step_by_step"],
+        "rank": 4,
+        "notes": "Weekly quizzes often from HW; cheat-sheet final in some sections; very caring."
+      },
+      {
+        "name": "Jianbo (Paul) Du",
+        "tags": ["fair", "lecture_heavy", "self_study_ok"],
+        "rank": 5,
+        "notes": "Clear criteria; a bit lecture-heavy; fine if you can self-study some."
+      },
+      {
+        "name": "Millia Ison",
+        "tags": ["heavy_homework", "test_heavy"],
+        "rank": 6,
+        "notes": "Lots of practice and time commitment; mixed outcomes."
+      },
+      {
+        "name": "Bijan Sadeghi-Hassanvand",
+        "tags": ["heavy_homework", "clarity_issues"],
+        "rank": 7,
+        "notes": "Lecture-heavy; clarity issues noted by some students."
+      },
+      {
+        "name": "Hassan Bourgoub",
+        "tags": ["mixed_reviews", "heavy_workload"],
+        "rank": 8,
+        "notes": "Mixed/low satisfaction overall; some succeed if self-teaching."
+      },
+      {
+        "name": "Lucian Sega",
+        "tags": ["external_campus", "positive_style"],
+        "rank": 9,
+        "notes": "Strong RMP is for SJSU (not De Anza)—include for style context only."
+      }
+    ],
+    "MATH 1D": [
+      {
+        "name": "Fatemeh Yarahmadi",
+        "tags": ["best_overall", "supportive", "predictable", "lower_stress", "easiest"],
+        "rank": 1,
+        "notes": "Supportive and student-friendly; clear grading; recent 1D posts mention 'nice and easy A' vibe if you keep up."
+      },
+      {
+        "name": "Vadim von Brzeski",
+        "tags": ["second_best", "encouraging", "fair"],
+        "rank": 2,
+        "notes": "Approachable, caring, good feedback; smaller sample but consistent alignment comments."
+      },
+      {
+        "name": "Roderic (Rick) Taylor",
+        "tags": ["manageable", "aligned_with_practice"],
+        "rank": 3,
+        "notes": "Tests similar to HW/practice; pacing/handwriting can be slow for some."
+      },
+      {
+        "name": "James Mailhot",
+        "tags": ["rigorous", "clear_explanations", "test_heavy"],
+        "rank": 4,
+        "notes": "Clear lectures; heavier homework and tougher testing—good for students seeking rigor."
+      },
+      {
+        "name": "Kejian Shi",
+        "tags": ["heavy_workload", "tough_grader"],
+        "rank": 5,
+        "notes": "Structured but harsh; lots of homework and test focus."
+      },
+      {
+        "name": "Hassan Bourgoub",
+        "tags": ["mixed_reviews", "organization_issues"],
+        "rank": 6,
+        "notes": "Some say tests can be easy if you self-teach; many report unclear structure/grading."
+      }
+    ],
+    "MATH 2A": [
+      {
+        "name": "Roderic (Rick) Taylor",
+        "tags": ["best_overall", "aligned_with_practice", "lower_stress", "easiest"],
+        "rank": 1,
+        "notes": "Helpful and patient; assessments predictable and aligned with practice; lower stress if you keep up. Stats: 3.3/5 overall, 56% WTA, diff 2.9, 186 ratings."
+      },
+      {
+        "name": "Kejian Shi",
+        "tags": ["structured", "tough_grader", "heavy_workload"],
+        "rank": 2,
+        "notes": "Very structured with clear criteria; heavy workload and tougher grading; prep pays off if disciplined. Stats: 2.6/5 overall, 28% WTA, diff 3.6, 469 ratings."
+      },
+      {
+        "name": "Hassan Bourgoub",
+        "tags": ["mixed_reviews", "organization_issues", "test_alignment_varies"],
+        "rank": 3,
+        "notes": "Reports of unclear organization outweigh easier quizzes/exams for many; overall experience trends stressful. Stats: 2.2/5 overall, 22% WTA, diff 3.4, 436 ratings."
+      }
+    ],
+    "MATH 2B": [
+      {
+        "name": "Lucian Sega",
+        "tags": ["best_overall", "engaging", "supportive", "lower_stress", "external_campus", "easiest"],
+        "rank": 1,
+        "notes": "Inspirational and engaging; supportive vibe; difficulty not punishing for many. Caveat: RMP page is for SJSU (not DA). RMP: 4.9/5 overall, 100% WTA, diff 2.6, 20 ratings."
+      },
+      {
+        "name": "James Mailhot",
+        "tags": ["clear_explanations", "rigorous", "test_heavy"],
+        "rank": 2,
+        "notes": "Clear lecturer but stricter grading and test-heavy; good if you want rigor and can keep a steady rhythm. RMP (DA): 3.6/5 overall, 44% WTA, diff 3.2, 156 ratings."
+      },
+      {
+        "name": "Jakob Kotas",
+        "tags": ["accessible", "caring", "mixed_organization", "external_campus"],
+        "rank": 3,
+        "notes": "Often praised as caring/accessible; some concerns about organization/partial credit. RMP page is for UW (not DA). RMP (UW): 3.5/5 overall, 66% WTA, diff 3.4, 25 ratings."
+      }
+    ]
+  },
+  
+  "faq": [
+    {
+      "q": "Where do I find the academic calendar?",
+      "a": "Check the Registrar/Academic Calendar page on your college website.",
+      "keywords": [
+        "calendar",
+        "dates",
+        "holidays",
+        "deadlines"
+      ]
+    },
+    {
+      "q": "How many units are considered full-time?",
+      "a": "12+ units is considered full time at De Anza.",
+      "keywords": [
+        "full time",
+        "units",
+        "enrollment"
+      ]
+    },
+    {
+      "q": "Is there free tutoring on campus?",
+      "a": "Yes\u2014visit the tutoring center page for drop-in hours and subjects.",
+      "keywords": [
+        "tutoring",
+        "help",
+        "study center"
+      ]
+    }
+  ],
+  "majors": [
+    {
+      "campus": "UC Berkeley",
+      "program": "Data Science B.A. (L&S)",
+      "aliases": ["Data Science", "L&S Data Science", "Berkeley Data Science BA"],
+      "before_transfer": [
+        "Calculus 1A - 1D",
+        "Math 2A",
+        "Math 2B",
+        "Data Abstraction and Structures - CIS 22C"
+      ],
+      "after_transfer": [
+        "Math 1A - Calculus",
+        "Math 1B - Calculus",
+        "Math 56 - Linear Algebra",
+        "Math 54 Linear Algebra and Differential Equations",
+        "Data C8 - Foundations of Data Science",
+        "COMPSCI 61A - The Structure and Interpretation of Computer Programs",
+        "ENGIN 7",
+        "COMPSCI 61B - Data Structures"
+
+      ],
+      "notes": "Domain Emphasis varies (e.g., Business, Cognition, Geo, Health). Use ASSIST for articulation from CC to UCB. https://assist.org/transfer/results?year=75&institution=113&agreement=79&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75%2F113%2Fto%2F79%2FMajor%2F648bdbf3-f87d-4a4e-7e0b-08dcb87d5deb",
+      "source_url": "https://assist.org/transfer/results?year=75&institution=113&agreement=79&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75%2F113%2Fto%2F79%2FMajor%2F648bdbf3-f87d-4a4e-7e0b-08dcb87d5deb"
+    },
+    {
+      "campus": "UCLA",
+      "program": "Statistics & Data Science B.S.",
+      "aliases": ["Data Science", "Data Theory", "UCLA Data Theory"],
+      "before_transfer": [
+        "Calculus 1A - 1D",
+        "MATH 2B",
+        "Math 10 - Intro Stats",
+        "CIS 44H - R progamming"
+      ],
+      "after_transfer": [
+        "Math 31A - Differential and Integral Calc",
+        "Math 31B - Integration and Infinite Series",
+        "Math 32A",
+        "Math 32B",
+        "Math 33A",
+        "Stats 20",
+        "Stats 10",
+        "Stats 12",
+        "Stats 13",
+        "Stats 15"
+      ],
+      "notes": "UCLA’s primary DS-aligned major is Data Theory (Math+Stats); many students also combine CS+Stats. USE Assist to clarify: https://assist.org/transfer/results?year=75&institution=113&agreement=117&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75%2F113%2Fto%2F117%2FMajor%2Fdf83159c-6975-4ca5-cc1b-08dc9134ea85",
+      "source_url": "https://assist.org/transfer/results?year=75&institution=113&agreement=117&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75%2F113%2Fto%2F117%2FMajor%2Fdf83159c-6975-4ca5-cc1b-08dc9134ea85"
+    },
+    {
+      "campus": "UC San Diego",
+      "program": "Data Science B.S.",
+      "aliases": ["Data Science", "UCSD DS", "DSC"],
+      "before_transfer": [
+        "Math 1A - 1D",
+        "BIOL 6A - 6B",
+        "Econ 1",
+        "Econ 2",
+        "Math 10 OR PSYC 15",
+        "SOC 14"
+      ],
+      "after_transfer": [
+        "Math 18",
+        "Math 20A - 20C",
+        "COGS 9",
+        "DSC 10",
+        "DSC 20",
+        "DSC 30",
+        "DSC 40A - 40B",
+        "DSC 80",
+        "BILD 1 and BILD 3",
+        "ECON 1 and ECON 3",
+        "COGS 14A - 14B",
+        "POLI 5",
+        "POLI 30",
+        "SOCI 60",
+        "USP 4"
+      ],
+      "notes": "Lowkey some of the dumbest major requirements I have ever seen. Use assist.org to clarify: https://assist.org/transfer/results?year=75&institution=113&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75%2F113%2Fto%2F7%2FMajor%2Fda31dba3-8138-4ece-a822-08dca807bc76",
+      "source_url": "https://assist.org/transfer/results?year=75&institution=113&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75%2F113%2Fto%2F7%2FMajor%2Fda31dba3-8138-4ece-a822-08dca807bc76"
+    },
+    {
+      "campus": "UC Santa Barbara",
+      "program": "Statistics & Data Science B.S.",
+      "aliases": ["Data Science", "Statistics and Data Science", "UCSB DS"],
+      "before_transfer": [
+        "Math 1A - Math 1D",
+        "Math 2A - Math 2B",
+        "CIS 44A",
+        "CIS 44H",
+        "CIS 5 OR CIS 22A OR CIS 35A OR CIS 40 OR CIS 41A",
+        "CIS 22B OR CIS 22BH OR CIS 26A OR CIS 26B OR CIS 26BH"
+      ],
+      "after_transfer": [
+        "MATH 3A - MATH 3B",
+        "MATH 4A - MATH 4B",
+        "MATH 6A",
+        "MATH 8",
+        "PSTAT 8",
+        "PSTAT 10",
+        "CMPSC 8",
+        "CMPSC 9",
+        "CMPSC 16"
+      ],
+      "notes": "UCSB has either a B.A. or B.S. choice for Data Science. Use Assist.org to clarify: https://assist.org/transfer/results?year=75&institution=113&agreement=128&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75%2F113%2Fto%2F128%2FMajor%2Feda5a4d4-8165-478a-97fe-08dcd6abdbb0",
+      "source_url": "https://assist.org/transfer/results?year=75&institution=113&agreement=128&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75%2F113%2Fto%2F128%2FMajor%2Feda5a4d4-8165-478a-97fe-08dcd6abdbb0"
+    },
+    {
+      "campus": "UC Irvine",
+      "program": "Data Science B.S.",
+      "aliases": ["Data Science", "UCI DS", "ICS DS"],
+      "before_transfer": [
+        "CIS 40 AND CIS 41A AND CIS 41B",
+        "MATH 1A - MATH 1D",
+        "Math 2B",
+        "MATH 10 OR PSYC 15",
+        "MATH 22",
+        "CIS 22A - CIS 22C"
+      ],
+      "after_transfer": [
+        "I&C SCI 31, 32, 33",
+        "MATH 2A - MATH 2B",
+        "STATS 7",
+        "MATH 3A",
+        "i&C SCI 6N, 6D, 45C, 46, 51, ",
+        "MATH 2D",
+        "IN4MATX 43",
+        "STATS 68"
+      ],
+      "notes": "Program usually offered via ICS (Informatics/CS). Check catalog year; course codes may change. Use assist.org to clarify: https://assist.org/transfer/results?year=75&institution=113&agreement=120&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75%2F113%2Fto%2F120%2FMajor%2F4d6831ef-877e-4b4c-10ef-08dc9aca4e37",
+      "source_url": "https://assist.org/transfer/results?year=75&institution=113&agreement=120&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75%2F113%2Fto%2F120%2FMajor%2F4d6831ef-877e-4b4c-10ef-08dc9aca4e37"
+    },
+    {
+      "campus": "UC Davis",
+      "program": "Data Science B.S.",
+      "aliases": ["Data Science", "UCD DS"],
+      "before_transfer": [
+        "CIS 22C (Prereq: CIS 22A and CIS 22B",
+        "MATH 1A - MATH 1D",
+        "MATH 2B",
+        "MATH 10 OR MATH 17 OR PSYC 15 OR SOC 15"
+      ],
+      "after_transfer": [
+        "ECS 32A, ECS 32B",
+        "MAT 021A, MAT 021B, MAT 021C",
+        "MAT 022A",
+        "STA 035A, 035B, 035C",
+        "STA 013",
+        "ECS 017"
+      ],
+      "notes": "UCD provides domain tracks; verify with latest catalog and ASSIST for CC articulation: https://assist.org/transfer/results?year=75&institution=113&agreement=89&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75%2F113%2Fto%2F89%2FMajor%2Fe2aafd38-f1e3-4e7a-137a-08dcbcdb53de",
+      "source_url": "https://assist.org/transfer/results?year=75&institution=113&agreement=89&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75%2F113%2Fto%2F89%2FMajor%2Fe2aafd38-f1e3-4e7a-137a-08dcbcdb53de"
+    },
+    {
+      "campus": "UC Santa Cruz",
+      "program": "Computer Science B.S.",
+      "aliases": ["Data Science", "UCSC DS"],
+      "before_transfer": [
+        "MATH 1A - MATH 1D",
+        "CIS 21JA OR CIS 21JB",
+        "MATH 22",
+        "CIS 22C",
+        "MATH 2B"
+      ],
+      "after_transfer": [
+        "CSE 12, 16, 30",
+        "MATH 19A, 19B, 21, 23A",
+        "AM 10, 30",
+        "Data Management / Databases",
+        "Ethics / Communication in DS",
+        "DS/Domain Electives"
+      ],
+      "notes": "There is no specific Data Science major for UCSC. Use Assist to verify: https://assist.org/transfer/results?year=75&institution=113&agreement=132&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75%2F113%2Fto%2F132%2FMajor%2F0423047a-8a1d-4d0a-b495-08dca4e7496b",
+      "source_url": "https://assist.org/transfer/results?year=75&institution=113&agreement=132&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75%2F113%2Fto%2F132%2FMajor%2F0423047a-8a1d-4d0a-b495-08dca4e7496b"
+    },
+    {
+      "campus": "UC Riverside",
+      "program": "Data Science B.S.",
+      "aliases": ["Data Science", "UCR DS"],
+      "before_transfer": [
+        "CIS 22A OR CIS 26A OR CIS 26B OR (CIS 36A AND CIS 36B)",
+        "CIS 22B OR CIS 27 OR CIS 28 OR CIS 29 OR (CIS 36A AND CIS 36B)",
+        "MATH 1A - 1D",
+        "MATH 2B",
+        "MATH 22",
+        "CIS 22C",
+        "MATH 10"
+      ],
+      "after_transfer": [
+        "CS 10A, 10B, 10C, 11",
+        "MATH 9A, 9B, 9C, 10A, 31",
+        "STAT 11, 8, 10"
+      ],
+      "notes": "Course prefixes may be in CS, STAT, or EE; confirm catalog year. USE ASSIST TO VERIFY: https://assist.org/transfer/results?year=75&institution=113&agreement=46&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75%2F113%2Fto%2F46%2FMajor%2F6cd925f5-096e-4c87-a195-08dcf4773cca",
+      "source_url": "https://assist.org/transfer/results?year=75&institution=113&agreement=46&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75%2F113%2Fto%2F46%2FMajor%2F6cd925f5-096e-4c87-a195-08dcf4773cca"
+    },
+    {
+      "campus": "UC Merced",
+      "program": "Data Science and Analytics B.A.",
+      "aliases": ["Data Science", "UCM DS"],
+      "before_transfer": [
+        "MATH 1A - 1C",
+        "MATH 10",
+        "ECON 1, 2",
+        "PHIL 2 OR PHIL 8",
+        "ESL OR EWRT 1A",
+        "COMM 9 OR EWRT 1B OR EWRT 1C OR EWRT 2 OR PHIL 2"
+      ],
+      "after_transfer": [
+        "MATH 011, 012, 021, 022",
+        "DSA 002, 001",
+        "ECON 010, 001",
+        "COGS 001",
+        "PHIL 002, 003",
+        "MIST 050, 070",
+        "WRI 001, 010"
+      ],
+      "notes": "UCM is expanding DS offerings; always confirm with the current catalog. USE ASSIST TO VERIFY: https://assist.org/transfer/results?year=75&institution=113&agreement=144&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75%2F113%2Fto%2F144%2FMajor%2F9bad5d19-579c-4b08-11b5-08dc9aca4e37",
+      "source_url": "https://assist.org/transfer/results?year=75&institution=113&agreement=144&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75%2F113%2Fto%2F144%2FMajor%2F9bad5d19-579c-4b08-11b5-08dc9aca4e37"
+    }
+  ]
+
+}
