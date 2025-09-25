@@ -111,4 +111,21 @@ form.addEventListener("submit", async (e) => {
   } finally {
     sendBtn.disabled = false;
   }
+
+  
+});
+
+// Sidebar toggle
+const sidebar = document.getElementById('sidebar');
+const openBtn = document.getElementById('sidebarOpen');
+const closeBtn = document.getElementById('sidebarClose');
+
+if (openBtn) openBtn.addEventListener('click', () => sidebar.classList.add('open'));
+if (closeBtn) closeBtn.addEventListener('click', () => sidebar.classList.remove('open'));
+
+document.addEventListener('click', (e) => {
+  if (!sidebar.classList.contains('open')) return;
+  if (!sidebar.contains(e.target) && !openBtn.contains(e.target)) {
+    sidebar.classList.remove('open');
+  }
 });

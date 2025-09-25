@@ -29,17 +29,58 @@
     </div>
   </header>
 
-  <main class="container">
+  <main class="container layout">
+    <!-- 📌 Sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <h2>Data Science Campus Assistant</h2>
+        <button id="sidebarClose" aria-label="Close info panel">×</button>
+      </div>
+  
+      <p class="tagline">De Anza–focused assistant for Data Science pathways.</p>
+  
+      <div class="sidebar-section">
+        <h3>What it does</h3>
+        <ul class="bullet">
+          <li><strong>Best professors</strong> (when you ask): for
+            <em>MATH 1A–1D, MATH 2A–2B, CIS 22A–22C</em>.
+          </li>
+          <li><strong>UC Data Science major requirements</strong> across all UCs.</li>
+          <li>Grounded answers from your curated database; won’t invent names.</li>
+        </ul>
+      </div>
+  
+      <div class="sidebar-section">
+        <h3>How to ask</h3>
+        <ul class="bullet">
+          <li>“Who’s the best prof for <code>MATH 1B</code>?”</li>
+          <li>“Second best for <code>CIS 22C</code>?”</li>
+          <li>“UCSD Data Science lower-div requirements?”</li>
+          <li>“UCLA Data Theory vs Data Science?”</li>
+        </ul>
+      </div>
+  
+      <div class="sidebar-section">
+        <h3>Notes</h3>
+        <ul class="bullet">
+          <li>Professor recs show only when you ask about those courses.</li>
+          <li>Major requirements shown only for <strong>Data Science</strong>.</li>
+          <li>Use official catalogs for final confirmation.</li>
+        </ul>
+      </div>
+    </aside>
+  
+    <!-- 🔷 Chat content -->
     <section class="chat-card" aria-live="polite">
       <div id="messages" class="messages" role="log"></div>
-
+  
       <div class="suggestions" id="suggestions">
         <button class="chip">Best professor for MATH 1A?</button>
         <button class="chip">When’s the last day to drop?</button>
         <button class="chip">Tutoring options for CS?</button>
         <button class="chip">Data Science at UCSD requirements</button>
       </div>
-
+  
       <form id="chatForm" class="input-row" autocomplete="off">
         <input id="userInput" type="text" placeholder="Ask anything about your college…" aria-label="Your message" required />
         <button id="sendBtn" class="button primary" type="submit">Send</button>
@@ -47,6 +88,9 @@
       <p class="disclaimer">⚠️ This bot may be imperfect. Always verify critical info with your college.</p>
     </section>
   </main>
+  
+  <!-- 🟦 Floating button for mobile -->
+  <button class="sidebar-fab" id="sidebarOpen" aria-label="Open info panel">?</button>
 
   <footer class="site-footer">
     <div class="container">
