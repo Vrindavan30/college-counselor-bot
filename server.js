@@ -6,6 +6,8 @@ import fs from "fs";
 
 dotenv.config();
 
+
+
 async function webSearch(q, opts = {}) {
   const { site, num = 5 } = opts;
   const key = process.env.GOOGLE_CSE_KEY;
@@ -349,6 +351,24 @@ async function searchLocalKB(query) {
       return exactMatches.map(p => ({
         type: "professor",
         score: 100,
+        data: p
+      }));
+    }
+  }
+
+  // --- NEW: fallback to last-name match if no exact full-name hit ---
+  if (!mentioned.length) {
+    const qWords = qNorm.split(/\s+/);
+    const profMatches = (SCHOOL_DB.professors || []).filter(p => {
+      const parts = p.name.toLowerCase().split(/\s+/);
+      const last = parts[parts.length - 1]; // last word of prof name
+      return qWords.includes(last);
+    });
+    if (profMatches.length > 0) {
+      SESSION.lastProfessor = profMatches[0].name;
+      return profMatches.map(p => ({
+        type: "professor",
+        score: 90,
         data: p
       }));
     }
@@ -974,5 +994,4 @@ app.post("/chat", async (req, res) => {
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`✅ Server running on http://localhost:${PORT}`));
-
 
