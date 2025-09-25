@@ -179,25 +179,38 @@
     font-size: 1.2rem;
     cursor: pointer;
   }
+  /* === Force readable text in sidebar (desktop + mobile) === */
+  .sidebar {
+    color: #38bdf8; /* <-- change this to purple or any color you want */
+  }
+  
+  .sidebar h2,
+  .sidebar h3,
+  .sidebar p,
+  .sidebar li {
+    color: #38bdf8; /* purple headings and list items */
+  }
+  
+  .sidebar a {
+    color: #38bdf8;
+  }
+  
+  /* Mobile toggle */
+  .sidebar-fab {
+    display: none;
+    position: fixed;
+    bottom: 1rem; right: 1rem;
+    background: #444; color: #fff;
+    width: 2.5rem; height: 2.5rem;
+    border-radius: 50%;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
   @media (max-width: 768px) {
     .layout { flex-direction: column; }
     .sidebar { position: fixed; top:0; left: -300px; bottom:0; width:280px;
                background: var(--card-bg, #fff); z-index:999; transition:left 0.3s ease; }
     .sidebar.open { left:0; }
     .sidebar-fab { display:block; }
-    /* Force readable text in sidebar */
-    .sidebar {
-        color: #000;              /* main text */
-    }
-    
-    .sidebar h2,
-    .sidebar h3,
-    .sidebar p,
-    .sidebar li {
-        color: #000;              /* headings and list items */
-    }
-    
-    .sidebar a {
-        color: #000;
-    }
   }
