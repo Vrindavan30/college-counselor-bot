@@ -790,7 +790,14 @@ function formatHit(hit) {
     const upper = (m.upper_division || []).map(x => `• ${x}`).join("\n");
     const link  = m.source_url ? `\n🔗 Source: ${m.source_url}` : "";
     const notes = m.notes ? `\n📝 Notes: ${m.notes}` : "";
-    return `🎓 ${m.campus} — ${m.program}\n\nLower Division:\n${lower}\n\nUpper Division:\n${upper}${notes}${link}`;
+  
+    return `🎓 ${m.campus} — ${m.program}
+  
+  **Lower Division (community college prep — articulates to UC upper-division):**
+  ${lower || "—"}
+  
+  **Upper Division (completed at ${m.campus} after transfer):**
+  ${upper || "—"}${notes}${link}`;
   }
   return "";
 }
