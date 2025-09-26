@@ -37,6 +37,16 @@ async function webSearch(q, opts = {}) {
   }));
 }
 
+// put near your other helpers
+function words(s) {
+  return (s || "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim()
+    .split(/\s+/)
+    .filter(Boolean);
+}
+
 
 function normSchool(s) {
   return (s||"").toLowerCase()
@@ -302,12 +312,34 @@ function parseRankIntent(query) {
 
 function detectIntent(q) {
   const s = (q || "").toLowerCase();
+  const w = words(q);
+
+  // full-name mention
   const names = (SCHOOL_DB.professors || []).map(p => p.name).filter(Boolean);
-  const mentioned = names.find(n => s.includes(n.toLowerCase()));
+  const fullMention = names.find(n => s.includes(n.toLowerCase()));
+
+  // NEW: last-name mention (whole-word)
+  let lastNameMention = null;
+  if (!fullMention && w.length) {
+    const lastNameMap = new Map(); // last -> array of profs
+    for (const p of (SCHOOL_DB.professors || [])) {
+      const parts = (p.name || "").toLowerCase().split(/\s+/);
+      if (!parts.length) continue;
+      const last = parts[parts.length - 1];
+      if (!lastNameMap.has(last)) lastNameMap.set(last, []);
+      lastNameMap.get(last).push(p);
+    }
+    for (const token of w) {
+      if (lastNameMap.has(token)) {
+        lastNameMention = token;
+        break;
+      }
+    }
+  }
 
   if (isMajorReqQuery(s)) return "major_requirements";
   if (/(best|top|easiest)\s+(prof|professor)/.test(s)) return "prof_ranking";
-  if (mentioned) return "prof_lookup";
+  if (fullMention || lastNameMention) return "prof_lookup";   // ← key change
   if (/\b(waitlist|full|closed|no seats|class is full)\b/.test(s)) return "class_full";
   if (/\b(tutor|tutoring|stem center|writing center)\b/.test(s)) return "tutoring";
   if (/\b(deadline|last day|drop|withdraw|add|calendar)\b/.test(s)) return "deadline";
@@ -779,8 +811,8 @@ app.post("/chat", async (req, res) => {
       class_full:   new Set(["ranking","faq","deadline"]),
       tutoring:     new Set(["faq","course","deadline"]),
       deadline:     new Set(["deadline","faq"]),
-      major_requirements: new Set(["major","faq","course"]), // ✅ add this
-      generic:      new Set([])
+      major_requirements: new Set(["major","faq","course"]),
+      generic:      new Set(["professor","course","faq"]) // ← add at least "professor"
     };
     const allowed = allowByIntent[intent] || allowByIntent.generic;
     let filteredHits = hits.filter(h => allowed.has(h.type));
