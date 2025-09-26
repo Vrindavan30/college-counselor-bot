@@ -206,15 +206,15 @@ async function buildIndex() {
     });
 
     (SCHOOL_DB.majors || []).forEach(m => {
-      const before = m.before_transfer || m.lower_division || [];
-      const after  = m.after_transfer  || m.upper_division || [];
+      const lower = m.lower_division || [];
+      const upper = m.upper_division || [];
       const text = [
         "Major",
         m.campus,
         m.program,
         (m.aliases || []).join(" "),
-        "Before:", before.join(" ; "),
-        "After:",  after.join(" ; "),
+        "Lower:", lower.join(" ; "),
+        "Upper:", upper.join(" ; "),
         m.notes || ""
       ].join(" | ");
       items.push({ type: "major", data: m, text });
@@ -616,13 +616,14 @@ async function searchLocalKB(query) {
           if (campusHint === k && m.campus.toLowerCase() === synonyms[k]) score += 10;
         }
       }
-      // Program keywords
+      
       const blob = [
         m.program,
         (m.aliases || []).join(" "),
-        ((m.before_transfer || m.lower_division) || []).join(" "),
-        ((m.after_transfer  || m.upper_division) || []).join(" ")
+        (m.lower_division || []).join(" "),
+        (m.upper_division || []).join(" ")
       ].join(" ").toLowerCase();
+
 
       if (/\bdata\s*science\b/.test(blob)) score += 4;
       if (/\bdata\s*theory\b/.test(blob)) score += 2;
@@ -782,13 +783,14 @@ function formatHit(hit) {
     const rankline = (r.rank != null) ? `#${r.rank} ` : "";
     return `🏆 ${rankline}${p.name} — ${p.department}\n• Course: ${r.course}\n• Tag: ${tagLabel}\n${rating}${teaches}${notes}${rmp}`.trim();
   }
+  
   if (hit.type === "major") {
     const m = hit.data;
-    const before = (m.before_transfer || m.lower_division || []).map(x => `• ${x}`).join("\n");
-    const after  = (m.after_transfer  || m.upper_division || []).map(x => `• ${x}`).join("\n");
-    const link = m.source_url ? `\n🔗 Source: ${m.source_url}` : "";
+    const lower = (m.lower_division || []).map(x => `• ${x}`).join("\n");
+    const upper = (m.upper_division || []).map(x => `• ${x}`).join("\n");
+    const link  = m.source_url ? `\n🔗 Source: ${m.source_url}` : "";
     const notes = m.notes ? `\n📝 Notes: ${m.notes}` : "";
-    return `🎓 ${m.campus} — ${m.program}\n\nBefore Transfer:\n${before}\n\nAfter Transfer:\n${after}${notes}${link}`;
+    return `🎓 ${m.campus} — ${m.program}\n\nLower Division:\n${lower}\n\nUpper Division:\n${upper}${notes}${link}`;
   }
   return "";
 }

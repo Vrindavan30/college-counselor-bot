@@ -840,13 +840,13 @@
       "campus": "UC Berkeley",
       "program": "Data Science B.A. (L&S)",
       "aliases": ["Data Science", "L&S Data Science", "Berkeley Data Science BA"],
-      "before_transfer": [
+      "lower_division": [
         "Calculus 1A - 1D",
         "Math 2A",
         "Math 2B",
         "Data Abstraction and Structures - CIS 22C"
       ],
-      "after_transfer": [
+      "upper_division": [
         "Math 1A - Calculus",
         "Math 1B - Calculus",
         "Math 56 - Linear Algebra",
@@ -864,13 +864,13 @@
       "campus": "UCLA",
       "program": "Statistics & Data Science B.S.",
       "aliases": ["Data Science", "Data Theory", "UCLA Data Theory"],
-      "before_transfer": [
+      "lower_division": [
         "Calculus 1A - 1D",
         "MATH 2B",
         "Math 10 - Intro Stats",
         "CIS 44H - R progamming"
       ],
-      "after_transfer": [
+      "upper_division": [
         "Math 31A - Differential and Integral Calc",
         "Math 31B - Integration and Infinite Series",
         "Math 32A",
@@ -889,7 +889,7 @@
       "campus": "UC San Diego",
       "program": "Data Science B.S.",
       "aliases": ["Data Science", "UCSD DS", "DSC"],
-      "before_transfer": [
+      "lower_division": [
         "Math 1A - 1D",
         "BIOL 6A - 6B",
         "Econ 1",
@@ -897,7 +897,7 @@
         "Math 10 OR PSYC 15",
         "SOC 14"
       ],
-      "after_transfer": [
+      "upper_division": [
         "Math 18",
         "Math 20A - 20C",
         "COGS 9",
@@ -921,7 +921,7 @@
       "campus": "UC Santa Barbara",
       "program": "Statistics & Data Science B.S.",
       "aliases": ["Data Science", "Statistics and Data Science", "UCSB DS"],
-      "before_transfer": [
+      "lower_division": [
         "Math 1A - Math 1D",
         "Math 2A - Math 2B",
         "CIS 44A",
@@ -929,7 +929,7 @@
         "CIS 5 OR CIS 22A OR CIS 35A OR CIS 40 OR CIS 41A",
         "CIS 22B OR CIS 22BH OR CIS 26A OR CIS 26B OR CIS 26BH"
       ],
-      "after_transfer": [
+      "upper_division": [
         "MATH 3A - MATH 3B",
         "MATH 4A - MATH 4B",
         "MATH 6A",
@@ -947,7 +947,7 @@
       "campus": "UC Irvine",
       "program": "Data Science B.S.",
       "aliases": ["Data Science", "UCI DS", "ICS DS"],
-      "before_transfer": [
+      "lower_division": [
         "CIS 40 AND CIS 41A AND CIS 41B",
         "MATH 1A - MATH 1D",
         "Math 2B",
@@ -955,7 +955,7 @@
         "MATH 22",
         "CIS 22A - CIS 22C"
       ],
-      "after_transfer": [
+      "upper_division": [
         "I&C SCI 31, 32, 33",
         "MATH 2A - MATH 2B",
         "STATS 7",
@@ -972,13 +972,13 @@
       "campus": "UC Davis",
       "program": "Data Science B.S.",
       "aliases": ["Data Science", "UCD DS"],
-      "before_transfer": [
+      "lower_division": [
         "CIS 22C (Prereq: CIS 22A and CIS 22B",
         "MATH 1A - MATH 1D",
         "MATH 2B",
         "MATH 10 OR MATH 17 OR PSYC 15 OR SOC 15"
       ],
-      "after_transfer": [
+      "upper_division": [
         "ECS 32A, ECS 32B",
         "MAT 021A, MAT 021B, MAT 021C",
         "MAT 022A",
@@ -993,14 +993,14 @@
       "campus": "UC Santa Cruz",
       "program": "Computer Science B.S.",
       "aliases": ["Data Science", "UCSC DS"],
-      "before_transfer": [
+      "lower_division": [
         "MATH 1A - MATH 1D",
         "CIS 21JA OR CIS 21JB",
         "MATH 22",
         "CIS 22C",
         "MATH 2B"
       ],
-      "after_transfer": [
+      "upper_division": [
         "CSE 12, 16, 30",
         "MATH 19A, 19B, 21, 23A",
         "AM 10, 30",
@@ -1015,7 +1015,7 @@
       "campus": "UC Riverside",
       "program": "Data Science B.S.",
       "aliases": ["Data Science", "UCR DS"],
-      "before_transfer": [
+      "lower_division": [
         "CIS 22A OR CIS 26A OR CIS 26B OR (CIS 36A AND CIS 36B)",
         "CIS 22B OR CIS 27 OR CIS 28 OR CIS 29 OR (CIS 36A AND CIS 36B)",
         "MATH 1A - 1D",
@@ -1024,7 +1024,7 @@
         "CIS 22C",
         "MATH 10"
       ],
-      "after_transfer": [
+      "upper_division": [
         "CS 10A, 10B, 10C, 11",
         "MATH 9A, 9B, 9C, 10A, 31",
         "STAT 11, 8, 10"
@@ -1036,7 +1036,7 @@
       "campus": "UC Merced",
       "program": "Data Science and Analytics B.A.",
       "aliases": ["Data Science", "UCM DS"],
-      "before_transfer": [
+      "lower_division": [
         "MATH 1A - 1C",
         "MATH 10",
         "ECON 1, 2",
@@ -1044,7 +1044,7 @@
         "ESL OR EWRT 1A",
         "COMM 9 OR EWRT 1B OR EWRT 1C OR EWRT 2 OR PHIL 2"
       ],
-      "after_transfer": [
+      "upper_division": [
         "MATH 011, 012, 021, 022",
         "DSA 002, 001",
         "ECON 010, 001",
